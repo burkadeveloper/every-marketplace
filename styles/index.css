@@ -1,0 +1,347 @@
+/* navigation bar  */
+*{
+    margin:0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 0.5rem;
+}
+.over-price{
+    text-decoration: line-through;
+}
+body{
+    margin-top: 5.5rem;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-top{
+    display: flex;
+    padding: 1% ;
+   color: white;
+   background-color: rgb(7, 50, 167);
+   position: fixed;
+   z-index: 10000000000000000000000;
+   width: 100%;
+   top: 0;
+  
+
+}
+.brand-name{
+    
+        font-family: "Playwrite CU", cursive;
+        font-style: normal;
+      
+}
+.left-section{
+    
+    width: 12%;
+    text-align: center;
+    font-style: ;
+}
+.middle-section{
+    display: flex;
+    width: 65%;
+    margin-left: 4.5rem;
+    
+}
+.input-elemt{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    
+}
+.left-right{
+    display: flex;
+    margin-right: 2.5rem;
+    
+    width: 20%;
+    margin-left: 0.6rem;
+}
+.search-icon{
+  padding: 1% 2%;
+  border-left: none;
+  background-color: #0d6efd;
+  border-width: 0.1px;
+  border-color: #9b9b9b;
+  color: white;
+  
+}
+.search-image{
+    height: 5px;
+}
+
+.cart{
+    margin-left: 1.3rem;
+    margin-top: 0.4rem;
+}
+.user{
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+}
+.dropdown-default{
+    width: 30%;
+}
+
+select option{
+    
+    font-size: 15px;
+    height: 20px;
+    padding: 2px;
+}
+
+
+
+
+
+/*large screen products sytles */
+
+
+
+.products-grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    background-color: rgb(255, 255, 255);
+    row-gap: px;
+    column-gap: 5px;
+    padding: 0% 3%;
+}
+.product-card-container{
+    border-color: rgb(202, 202, 202);
+    border-style: solid;
+    border-width: 0.3px;
+    border-radius: 10px;
+     
+  }
+.produt-card-header{
+    text-align: center;
+}
+.product-image{
+   height: 200px;
+}
+.product-card-body{
+    
+}
+.product-name,.product-price{
+    padding: 1.75% 2.5%;
+}
+.product-price{
+    font-size: 1rem;
+ 
+    font-weight: bold;
+}
+.quantitySelection{
+    
+    padding: 3% 1%;
+}
+.select{
+    width: 4rem;
+    border-radius: 5px;
+}
+.add_button{
+    
+    text-align: center;
+    padding-bottom: 3%;
+}
+.btn{
+    width: 80%;
+    border-radius: 20px;
+    height: 45px;
+    background-color: rgb(211, 175, 16);
+    color: black;
+    border: none;
+    
+}
+
+.description-title{
+  
+    font-weight: bolder;
+}
+/* CARUOSEL IMAGES */
+.carousel-cs{
+   
+   padding-top: 3%;
+   padding-bottom: 3%;
+ 
+    
+}
+.carousel-IMAGES{
+    height: 100;
+}
+ .card{
+    background-color: rgb(150, 150, 150);
+    width: 30%;
+    margin: auto;
+}
+img.coursale-image{
+  height: 350px;
+}
+.crsl-btn{
+    background-color: #000000;
+}
+
+
+
+
+
+/* footer */
+#footer{
+    background-color: rgb(7, 50, 167);
+    padding: 8% 7%;
+    color: white;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social-media,.contacts,.services{
+    line-height: 4;
+}
+
+
+
+
+
+
+/* MOBILE DEVICE COMPATIBLE CODES */
+
+@media (max-width:765px) {
+   /* navigation bar  */
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.nav-bar-top{
+    display: flex;
+    justify-content: ;
+
+}
+.left-section{
+    
+    width: 20%;
+    margin: 0;
+    text-align: center;
+    padding-left: 3%;
+    
+}
+.middle-section{
+    display: flex;
+    width: 65%;
+    margin-left: 0.6rem;
+    
+}
+.input-elemt{
+    width: 200px;
+    height: 40px;
+    margin-top: 3px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+
+.search-icon{
+    height: 40px;
+    margin-top: 3px;
+    
+}
+.left-right{
+    display: flex;
+     position: relative;
+     left: 0.5rem;
+    width: 30%;
+    
+    
+}
+.search-icon{
+    padding: 2% 3%;
+    border-width: 0.2px;
+    border-radius: 2px;
+    border-left: none;
+    background-color: #0d6efd;
+    border-width: 0.1px;
+    border-color: #9b9b9b;
+    color: white;
+    
+  }
+.cart{
+    margin-left: 0.85rem;
+    margin-top: 0.4rem;
+    align-items: center;
+}
+.user{
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+/* products   */
+.products-grid{
+    display: grid;
+    grid-template-columns:  1fr  ;
+    
+   
+}
+.product-card-container{
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+   
+}
+/* carousel style */
+.carousel-cs{
+   
+    padding-top: 3%;
+    padding-bottom: 3%;
+  
+     
+ }
+ .carousel-IMAGES{
+     height: 80px;
+ }
+ .card-header{
+    text-align: center;
+ }
+  .card{
+     background-color: rgb(255, 255, 255);
+     width: 60%;
+     margin: auto;
+ }
+ img.coursale-image{
+   height: 200px;
+ }
+ .crsl-btn{
+     background-color: #000000;
+ }
+
+
+
+/* footer */
+#footer{
+    background-color:#0d6efd;
+    padding: 3% 5%;
+    color: white;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social-media,.contacts,.services{
+    line-height: 3;
+}
+.phone-number{
+    font-size: 0.8rem;
+}
+}
+
+
+
